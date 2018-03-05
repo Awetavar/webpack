@@ -67,12 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-
-
-var Main = document.getElementById('webpack')
-var Child = document.createElement('div')
-Main.appendChild(Child)
-Child.innerHTML='hello world'
+eval("\r\n\r\nvar Main = document.getElementById('webpack')\r\nvar Child = document.createElement('div')\r\nMain.appendChild(Child)\r\nChild.innerHTML='hello world'//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi5qcz8zNDc5Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUE7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxudmFyIE1haW4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnd2VicGFjaycpXHJcbnZhciBDaGlsZCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpXHJcbk1haW4uYXBwZW5kQ2hpbGQoQ2hpbGQpXHJcbkNoaWxkLmlubmVySFRNTD0naGVsbG8gd29ybGQnXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvbWFpbi5qc1xuLy8gbW9kdWxlIGlkID0gMFxuLy8gbW9kdWxlIGNodW5rcyA9IDAiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
 
 /***/ })
 /******/ ]);
