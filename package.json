@@ -11,5 +11,8 @@
     "url": "git@gitee.com:zwy414/webpack.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.1.0"
+  }
 }
