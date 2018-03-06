@@ -1,5 +1,6 @@
 
-import webpack from 'webpack';
+
+const webpack  = require('webpack');
 
 module.exports = {
   devtool:"eval-source-map",
@@ -9,7 +10,7 @@ module.exports = {
     filename: "bundle.js"
   },
   devServer:{
-    contenBase:"./src",
+    contentBase:"./dist",
     port: "8081",
     inline:true
   }
