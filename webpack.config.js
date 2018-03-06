@@ -1,5 +1,5 @@
 
-
+const webpack = require('webpack')
 module.exports = {
   mode:'development',
   entry: __dirname + '/app/main.js',
@@ -19,14 +19,26 @@ module.exports = {
         test:/(\.jsx|\.js)$/,
         use:{
           loader:"babel-loader",
-          options:{
-            presets:[
-              "env","react"
-            ]
-          }
         },
         exclude:/node_modules/
+      },
+      {
+        test:/\.css$/,
+        use:[{
+          loader:"style-loader"
+        },{
+          loader:"css-loader",
+          options:{
+            modules:true,
+            localIdentName:'[name]__[local]--[hash:base64:5]'
+          }
+        },{
+          loader:'postcss-loader'
+        }]
       }
     ]
-  }
+  },
+  plugins:[
+    new webpack.BannerPlugin('我的webpack打包！！')
+  ]
 }
